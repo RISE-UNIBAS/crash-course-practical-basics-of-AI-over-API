@@ -1,5 +1,7 @@
 # Crash Course: Practical Basics of AI over API      
 [![Pylint](https://github.com/RISE-UNIBAS/crash-course-practical-basics-of-AI-over-API/actions/workflows/pylint.yml/badge.svg)](https://github.com/RISE-UNIBAS/crash-course-practical-basics-of-AI-over-API/actions/workflows/pylint.yml)
+[![python](https://img.shields.io/badge/Python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![python](https://img.shields.io/badge/Python-3.11-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
 This repository contains the code for the Crash Course: Practical Basics of AI over API.
 More information about our courses can be found on the [RISE website](https://www.rise.unibas.ch/).
