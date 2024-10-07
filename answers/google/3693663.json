@@ -1,0 +1,902 @@
+[
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "89",
+        "company": "Ashdowns Ltd.",
+        "location": "St. Helens, Lancs.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "815"
+            },
+            {
+                "section": "C",
+                "number": "506"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "90",
+        "company": "Ashe Laboratories Ltd.",
+        "location": "London SW 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "541"
+            },
+            {
+                "section": "C",
+                "number": "905, 946"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "91",
+        "company": "Ashwell & Nesbitt Ltd.",
+        "location": "Leicester.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "396"
+            },
+            {
+                "section": "C",
+                "number": "450"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "92",
+        "company": "Ashworth (Geo. L.) & Bros. Ltd.",
+        "location": "Hanley, Stoke-on-Trent.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "565"
+            },
+            {
+                "section": "C",
+                "number": "1360"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "93",
+        "company": "Asletta Fashions Ltd.",
+        "location": "London W 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "605"
+            },
+            {
+                "section": "C",
+                "number": "1074"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "94",
+        "company": "Asquith (William) Ltd.",
+        "location": "London WC 2.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "328"
+            },
+            {
+                "section": "C",
+                "number": "194"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "95",
+        "company": "Associated British Machine Tool Makers Ltd.",
+        "location": "London SW 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "726"
+            },
+            {
+                "section": "C",
+                "number": "178"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "96",
+        "company": "Associated British Maltsters Export Co. Ltd.",
+        "location": "Newark-on-Trent.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "759"
+            },
+            {
+                "section": "C",
+                "number": "112"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "97",
+        "company": "Associated British Oil Engines Ltd.",
+        "location": "London SW 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "689"
+            },
+            {
+                "section": "C",
+                "number": "418"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "98",
+        "company": "Associated Equipment Co. Ltd.",
+        "location": "Southall, Middx.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "155"
+            },
+            {
+                "section": "C",
+                "number": "563"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "99",
+        "company": "Associated Humber Lines",
+        "location": "Hull.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "161, 288, 361"
+            },
+            {
+                "section": "C",
+                "number": "1457"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "100",
+        "company": "Associated Motor Cycles Ltd.",
+        "location": "London SE 18.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "246"
+            },
+            {
+                "section": "C",
+                "number": "627"
+            },
+            {
+                "section": "A",
+                "number": "100"
+            },
+            {
+                "section": "B",
+                "number": "741"
+            },
+            {
+                "section": "C",
+                "number": "627"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "101",
+        "company": "Associated Weavers Ltd.",
+        "location": "London W 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "78"
+            },
+            {
+                "section": "C",
+                "number": "1247"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "102",
+        "company": "Astardijan (B. & S. H.)",
+        "location": "Manchester.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "674"
+            },
+            {
+                "section": "C",
+                "number": "1108"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "103",
+        "company": "Aston-Martin Ltd.",
+        "location": "Feltham, Middx.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "719"
+            },
+            {
+                "section": "C",
+                "number": "562"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "104",
+        "company": "Atkinsons (J. & E.) Ltd.",
+        "location": "London W 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "740"
+            },
+            {
+                "section": "C",
+                "number": "952, 1356"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "105",
+        "company": "Atkinson (R.) & Co. Ltd.",
+        "location": "Belfast.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "451"
+            },
+            {
+                "section": "C",
+                "number": "1210"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "106",
+        "company": "Atlas Union Shoe Co. Ltd.",
+        "location": "Leicester.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "117"
+            },
+            {
+                "section": "C",
+                "number": "873, 875, 876"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "107",
+        "company": "Audley Engineering Co. Ltd.",
+        "location": "Newport, Shropshire.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "806"
+            },
+            {
+                "section": "C",
+                "number": "258"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "108",
+        "company": "Ault & Wiborg Ltd.",
+        "location": "London SW 18.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "387"
+            },
+            {
+                "section": "C",
+                "number": "956, 972"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "109",
+        "company": "Austen Aircraft Ltd.",
+        "location": "Rearby, Leicester.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "393"
+            },
+            {
+                "section": "C",
+                "number": "639"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "110",
+        "company": "Austin Motor Co. Ltd.",
+        "location": "Birmingham.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "250"
+            },
+            {
+                "section": "C",
+                "number": "562"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "111",
+        "company": "Auto-Klean Strainers Ltd.",
+        "location": "Hounslow, Middx.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "241"
+            },
+            {
+                "section": "C",
+                "number": "465"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "112",
+        "company": "Automatic Coil Winder & Electrical Equipment Co. Ltd.",
+        "location": "London SW 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "747"
+            },
+            {
+                "section": "C",
+                "number": "495, 660"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "113",
+        "company": "Automatic Telephone & Electric Co. Ltd.",
+        "location": "Liverpool.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "15"
+            },
+            {
+                "section": "C",
+                "number": "654"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "114",
+        "company": "Automotive Products Co. Ltd.",
+        "location": "Leamington Spa.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "215"
+            },
+            {
+                "section": "C",
+                "number": "574, 580"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "115",
+        "company": "Autotype Co. Ltd.",
+        "location": "London W 13.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "559"
+            },
+            {
+                "section": "C",
+                "number": "1276"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "116",
+        "company": "Avalon Leather Board Co.",
+        "location": "Street, Somerset.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "496"
+            },
+            {
+                "section": "C",
+                "number": "887, 893"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "117",
+        "company": "Aveling Barford Ltd.",
+        "location": "Grantham.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "383"
+            },
+            {
+                "section": "C",
+                "number": "351, 369"
+            },
+            {
+                "section": "B",
+                "number": "614"
+            },
+            {
+                "section": "C",
+                "number": "343, 351, 369, 373, 374"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "118",
+        "company": "Aviation Developments Ltd.",
+        "location": "London WC 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "416"
+            },
+            {
+                "section": "C",
+                "number": "403, 761"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "119",
+        "company": "Avimo Ltd.",
+        "location": "Taunton.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "645"
+            },
+            {
+                "section": "C",
+                "number": "1279"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "120",
+        "company": "Avon India Rubber Co. Ltd.",
+        "location": "Melksham, Wilts.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "160"
+            },
+            {
+                "section": "C",
+                "number": "808"
+            },
+            {
+                "section": "B",
+                "number": "226"
+            },
+            {
+                "section": "C",
+                "number": "780, 781"
+            },
+            {
+                "section": "B",
+                "number": "508"
+            },
+            {
+                "section": "C",
+                "number": "1408"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "121",
+        "company": "Aysnley (John) & Sons Ltd.",
+        "location": "Longton, Stoke-on-Trent.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "495"
+            },
+            {
+                "section": "C",
+                "number": "1359"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "122",
+        "company": "Bailey (A.) & Co. Ltd.",
+        "location": "Glastonbury, Somerset.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "797"
+            },
+            {
+                "section": "C",
+                "number": "872"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "123",
+        "company": "Bailey (E.) & Co.",
+        "location": "London EC 3.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "475"
+            },
+            {
+                "section": "C",
+                "number": "778, 807"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "124",
+        "company": "Baird & Tatlock (London) Ltd.",
+        "location": "London EC 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "843"
+            },
+            {
+                "section": "C",
+                "number": "682, 694"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "125",
+        "company": "Bairnswear Ltd.",
+        "location": "Nottingham.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "603"
+            },
+            {
+                "section": "C",
+                "number": "1095"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "126",
+        "company": "Bairnswear Knitwear Ltd.",
+        "location": "Nottingham.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "603"
+            },
+            {
+                "section": "C",
+                "number": "1185"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "127",
+        "company": "Bakelite Ltd.",
+        "location": "London SW 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "794"
+            },
+            {
+                "section": "C",
+                "number": "809, 810, 816, 817, 823"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "128",
+        "company": "Baker (G. P. & J.) Ltd.",
+        "location": "London SW 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "EC"
+            },
+            {
+                "section": "C",
+                "number": "89"
+            },
+            {
+                "section": "B",
+                "number": "1145"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "129",
+        "company": "Baker (M.) Ltd.",
+        "location": "London W 1.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "207"
+            },
+            {
+                "section": "C",
+                "number": "1169"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "130",
+        "company": "Baldwin Instrument Co. Ltd.",
+        "location": "Dartford, Kent.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "31"
+            },
+            {
+                "section": "C",
+                "number": "1297"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "15",
+            "page_id": "3693663"
+        },
+        "number": "131",
+        "company": "Balfour (Arthur) & Co. Ltd.",
+        "location": "Sheffield.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "105"
+            },
+            {
+                "section": "C",
+                "number": "103, 111, 378"
+            }
+        ]
+    }
+]

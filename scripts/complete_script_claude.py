@@ -1,4 +1,4 @@
-"""This script uses the OpenAI ChatGPT API to process images and extract information from them. The script reads
+"""This script uses the Anthropic Claude API to process images and extract information from them. The script reads
 images from a directory, resizes them, and sends them to the API along with a prompt. The API generates a response
 containing the extracted information in JSON format. The script saves the extracted information to a JSON file with
 the same name as the image file. The script processes multiple images in a batch."""
@@ -12,19 +12,20 @@ import time
 from io import BytesIO
 from PIL import Image
 
-# Import the OpenAI client
-from openai import OpenAI
+# Import the Anthropic client
+from anthropic import Anthropic
 
 # Save the start time, set the image and output directories
 start_time = time.time()
 total_files = 0
 total_in_tokens = 0
 total_out_tokens = 0
-input_cost_per_mio_in_dollars = 2.5
-output_cost_per_mio_in_dollars = 10
+input_cost_per_mio_in_dollars = 3
+output_cost_per_mio_in_dollars = 15
+max_tokens_per_request = 4096 * 2
 
 image_directory = "../image_data"
-output_directory = "../answers/openai"
+output_directory = "../answers/anthropic"
 
 # Clear the output directory
 for root, _, filenames in os.walk(output_directory):
@@ -33,12 +34,12 @@ for root, _, filenames in os.walk(output_directory):
 
 # Set the API key, model, section, and temperature
 api_key = "your-api-key"
-model = "gpt-4o"
+model = "claude-3-5-sonnet-20240620"
 section = "A"
 temperature = 0.5
 
-# Create an instance of the OpenAI API client
-client = OpenAI(api_key=api_key)
+# Create an instance of the Anthropic API client
+client = Anthropic(api_key=api_key)
 
 # Process each image in the image_data directory
 for root, _, filenames in os.walk(image_directory):
@@ -93,27 +94,34 @@ for root, _, filenames in os.walk(image_directory):
                 {
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": prompt},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
-                    ]
-                },
-                {
-                    "role": "system",
-                    "content": "You are a precise list-reading machine and your answers are plain JSON."
+                        {
+                            "type": "image",
+                            "source": {
+                                "type": "base64",
+                                "media_type": "image/jpeg",
+                                "data": base64_image
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": prompt
+                        }
+                    ],
                 }
             ]
 
-            answer = client.chat.completions.create(messages=workload,
-                                                    model=model,
-                                                    temperature=temperature)
+            answer = client.messages.create(messages=workload,
+                                            model=model,
+                                            max_tokens=max_tokens_per_request)
             print("Done.")
 
             # Extract the answer from the response
-            answer_text = answer.choices[0].message.content
-            print("> Received an answer from the API. Token cost (in/out):", answer.usage.prompt_tokens, "/",
-                  answer.usage.completion_tokens)
-            total_in_tokens += answer.usage.prompt_tokens
-            total_out_tokens += answer.usage.completion_tokens
+            answer_text = answer.content[0].text
+            print(answer_text)
+            print("> Received an answer from the API. Token cost (in/out):", answer.usage.input_tokens, "/",
+                  answer.usage.output_tokens)
+            total_in_tokens += answer.usage.input_tokens
+            total_out_tokens += answer.usage.output_tokens
 
             print("> Processing the answer...")
             # Save the answer to a json file. The filename should be the image_id with a .json extension
@@ -125,25 +133,25 @@ for root, _, filenames in os.walk(image_directory):
                 # Extract the JSON content
                 answer_text = match.group(1).strip()
 
-                # Parse the JSON content into a Python object
-                try:
-                    answer_data = json.loads(answer_text)
-                except json.JSONDecodeError as e:
-                    print(f"> Failed to parse JSON: {e}")
-                    answer_data = None
+            # Parse the JSON content into a Python object
+            try:
+                answer_data = json.loads(answer_text)
+            except json.JSONDecodeError as e:
+                print(f"> Failed to parse JSON: {e}")
+                answer_data = None
 
-                if answer_data:
-                    # Create the answers directory if it doesn't exist
-                    os.makedirs(output_directory, exist_ok=True)
+            if answer_data:
+                # Create the answers directory if it doesn't exist
+                os.makedirs(output_directory, exist_ok=True)
 
-                    # Save the answer to a JSON file
-                    with open(f"{output_directory}/{image_id}.json", "w") as json_file:
-                        try:
-                            json.dump(answer_data, json_file, indent=4)
-                            print(f"> Saved the answer for {image_id} to {output_directory}/{image_id}.json")
-                        except Exception as e:
-                            print(f"> Failed to save the answer for {image_id} to {output_directory}/{image_id}.json")
-                            print(e)
+                # Save the answer to a JSON file
+                with open(f"{output_directory}/{image_id}.json", "w") as json_file:
+                    try:
+                        json.dump(answer_data, json_file, indent=4)
+                        print(f"> Saved the answer for {image_id} to {output_directory}/{image_id}.json")
+                    except Exception as e:
+                        print(f"> Failed to save the answer for {image_id} to {output_directory}/{image_id}.json")
+                        print(e)
             else:
                 print("> No match found for the JSON content.")
 

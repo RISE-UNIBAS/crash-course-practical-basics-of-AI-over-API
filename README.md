@@ -83,9 +83,9 @@ and start coding. Consider the following tips:
 
 - The code is written in Python. If you are new to Python, you can find a tutorial here: https://www.learnpython.org/ or let an LLM generate the code for you.
 - The code is structured in scripts. Each script demonstrates a different API. You can run the scripts individually.
-- The code is well-documented. You can find explanations for each function and class in the code.
-- The scripts starting with "single_" demonstrate how create a single API request. The scripts starting with 
- "complete_" demonstrate how to create a complete pipeline with multiple API requests.
+- The code is well-documented. You can find explanations for each step in the code.
+- The scripts starting with `single_` demonstrate how create a single API request. The scripts starting with 
+ `complete_` demonstrate how to create a complete pipeline with multiple API requests.
 
 
 ## Getting help

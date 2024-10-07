@@ -1,4 +1,4 @@
-"""This script uses the OpenAI ChatGPT API to process images and extract information from them. The script reads
+"""This script uses the Google Gemini API to process images and extract information from them. The script reads
 images from a directory, resizes them, and sends them to the API along with a prompt. The API generates a response
 containing the extracted information in JSON format. The script saves the extracted information to a JSON file with
 the same name as the image file. The script processes multiple images in a batch."""
@@ -12,8 +12,8 @@ import time
 from io import BytesIO
 from PIL import Image
 
-# Import the OpenAI client
-from openai import OpenAI
+# Import the Google Gemini client
+import google.generativeai as genai
 
 # Save the start time, set the image and output directories
 start_time = time.time()
@@ -24,7 +24,7 @@ input_cost_per_mio_in_dollars = 2.5
 output_cost_per_mio_in_dollars = 10
 
 image_directory = "../image_data"
-output_directory = "../answers/openai"
+output_directory = "../answers/google"
 
 # Clear the output directory
 for root, _, filenames in os.walk(output_directory):
@@ -33,12 +33,13 @@ for root, _, filenames in os.walk(output_directory):
 
 # Set the API key, model, section, and temperature
 api_key = "your-api-key"
-model = "gpt-4o"
+model = "gemini-1.5-flash"
 section = "A"
 temperature = 0.5
 
-# Create an instance of the OpenAI API client
-client = OpenAI(api_key=api_key)
+# Configure the GenerativeAI client with your API key.
+genai.configure(api_key=api_key)
+model = genai.GenerativeModel(model)
 
 # Process each image in the image_data directory
 for root, _, filenames in os.walk(image_directory):
@@ -49,19 +50,6 @@ for root, _, filenames in os.walk(image_directory):
             print("----------------------------------------")
             print(f"> Processing file ({file_number}/{total_files}): {filename}")
             image_id = filename.split(".")[0]
-
-            with Image.open(os.path.join(root, filename)) as img:
-                # Preserve the aspect ratio while resizing the image to fit within 1024x1492
-                print("> Resizing the image...", end=" ")
-                img.thumbnail((1024, 1492))
-
-                # Save the resized image to a BytesIO object
-                buffered = BytesIO()
-                img.save(buffered, format="JPEG")
-
-                # Convert the resized image to base64
-                base64_image = base64.b64encode(buffered.getvalue()).decode("utf-8")
-                print("Done.")
 
             # Create the prompt for the model
             print("> Sending the image to the API and requesting answer...", end=" ")
@@ -89,31 +77,17 @@ for root, _, filenames in os.walk(image_directory):
                       '  ]'
                       '}')
 
-            workload = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
-                    ]
-                },
-                {
-                    "role": "system",
-                    "content": "You are a precise list-reading machine and your answers are plain JSON."
-                }
-            ]
+            image_file = genai.upload_file(path=os.path.join(root, filename))
 
-            answer = client.chat.completions.create(messages=workload,
-                                                    model=model,
-                                                    temperature=temperature)
+            answer = model.generate_content([prompt, image_file])
             print("Done.")
 
             # Extract the answer from the response
-            answer_text = answer.choices[0].message.content
-            print("> Received an answer from the API. Token cost (in/out):", answer.usage.prompt_tokens, "/",
-                  answer.usage.completion_tokens)
-            total_in_tokens += answer.usage.prompt_tokens
-            total_out_tokens += answer.usage.completion_tokens
+            answer_text = answer.text
+            print("> Received an answer from the API. Token cost (in/out):", answer.usage_metadata.prompt_token_count, "/",
+                  answer.usage_metadata.candidates_token_count)
+            total_in_tokens += answer.usage_metadata.prompt_token_count
+            total_out_tokens += answer.usage_metadata.candidates_token_count
 
             print("> Processing the answer...")
             # Save the answer to a json file. The filename should be the image_id with a .json extension

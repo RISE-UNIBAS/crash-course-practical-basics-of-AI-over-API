@@ -1,0 +1,990 @@
+[
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "46",
+        "company": "Allied Laboratories Ltd.",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "357"
+            },
+            {
+                "section": "C",
+                "number": "933"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "47",
+        "company": "Allied Metals Ltd.",
+        "location": "London EC 2",
+        "connections": [
+            {
+                "section": "B",
+                "number": "592"
+            },
+            {
+                "section": "C",
+                "number": "1291"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "48",
+        "company": "Alma Ltd.",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "475"
+            },
+            {
+                "section": "C",
+                "number": "847"
+            },
+            {
+                "section": "C",
+                "number": "850"
+            },
+            {
+                "section": "C",
+                "number": "855"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "49",
+        "company": "Alma & Cranmore Tube Co. Ltd.",
+        "location": "Wednesbury",
+        "connections": [
+            {
+                "section": "B",
+                "number": "158"
+            },
+            {
+                "section": "C",
+                "number": "133"
+            },
+            {
+                "section": "C",
+                "number": "135"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "50",
+        "company": "Alpha Leather & Rubber Co. Ltd.",
+        "location": "London EC 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "475"
+            },
+            {
+                "section": "C",
+                "number": "848"
+            },
+            {
+                "section": "C",
+                "number": "864"
+            },
+            {
+                "section": "C",
+                "number": "870"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "51",
+        "company": "Alvis Ltd.",
+        "location": "Coventry",
+        "connections": [
+            {
+                "section": "B",
+                "number": "319"
+            },
+            {
+                "section": "C",
+                "number": "562"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "52",
+        "company": "Amalgamated Dental Co. Ltd.",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "48"
+            },
+            {
+                "section": "B",
+                "number": "588"
+            },
+            {
+                "section": "C",
+                "number": "1283"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "53",
+        "company": "Amalgams Co. Ltd.",
+        "location": "Sheffield",
+        "connections": [
+            {
+                "section": "B",
+                "number": "473"
+            },
+            {
+                "section": "C",
+                "number": "162"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "54",
+        "company": "\"Ambassador\" (The)",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "743"
+            },
+            {
+                "section": "C",
+                "number": "1048"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "55",
+        "company": "Ambler (Thos.) & Sons Ltd.",
+        "location": "East Ardsley",
+        "connections": [
+            {
+                "section": "B",
+                "number": "784"
+            },
+            {
+                "section": "C",
+                "number": "1120"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "56",
+        "company": "American Cyanamid Company (Lederle Laboratories Division)",
+        "location": "London WC 2",
+        "connections": [
+            {
+                "section": "B",
+                "number": "545"
+            },
+            {
+                "section": "C",
+                "number": "905"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "57",
+        "company": "Ames Crosta Mills & Co. Ltd.",
+        "location": "Heywood, Lancs.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "148"
+            },
+            {
+                "section": "C",
+                "number": "736"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "58",
+        "company": "Amex Co. Ltd.",
+        "location": "London EC 2",
+        "connections": [
+            {
+                "section": "B",
+                "number": "76"
+            },
+            {
+                "section": "C",
+                "number": "1044"
+            },
+            {
+                "section": "C",
+                "number": "1430a"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "59",
+        "company": "Anchor Chemical Co. Ltd.",
+        "location": "Clayton, Manchester",
+        "connections": [
+            {
+                "section": "B",
+                "number": "807"
+            },
+            {
+                "section": "C",
+                "number": "930"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "60",
+        "company": "Anderson (D.) & Son Ltd.",
+        "location": "Stretford",
+        "connections": [
+            {
+                "section": "B",
+                "number": "783"
+            },
+            {
+                "section": "C",
+                "number": "1257a"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "61",
+        "company": "Anderson (D. & J.) Ltd.",
+        "location": "Glasgow",
+        "connections": [
+            {
+                "section": "B",
+                "number": "211"
+            },
+            {
+                "section": "C",
+                "number": "1115"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "62",
+        "company": "Andre (Components) Ltd.",
+        "location": "London SW 15",
+        "connections": [
+            {
+                "section": "B",
+                "number": "226"
+            },
+            {
+                "section": "C",
+                "number": "569"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "63",
+        "company": "Andre Rubber Co. Ltd.",
+        "location": "Surbiton, Surrey",
+        "connections": [
+            {
+                "section": "B",
+                "number": "226"
+            },
+            {
+                "section": "C",
+                "number": "784"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "64",
+        "company": "Andrew (George) & Sons Ltd.",
+        "location": "Manchester",
+        "connections": [
+            {
+                "section": "B",
+                "number": "426"
+            },
+            {
+                "section": "C",
+                "number": "1084"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "65",
+        "company": "Anglo-Continental Wool Co. Ltd.",
+        "location": "Bradford",
+        "connections": [
+            {
+                "section": "B",
+                "number": "112"
+            },
+            {
+                "section": "C",
+                "number": "1095"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "66",
+        "company": "Anglo-Iranian Oil Co. Ltd.",
+        "location": "London EC 2",
+        "connections": [
+            {
+                "section": "B",
+                "number": "106"
+            },
+            {
+                "section": "C",
+                "number": "65"
+            },
+            {
+                "section": "C",
+                "number": "68"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "67",
+        "company": "Anglo-Overseas Transport Co. Ltd.",
+        "location": "London EC 3",
+        "connections": [
+            {
+                "section": "B",
+                "number": "377"
+            },
+            {
+                "section": "C",
+                "number": "1458"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "68",
+        "company": "Anglo-Scottish Tool Co. Ltd.",
+        "location": "Gateshead",
+        "connections": [
+            {
+                "section": "B",
+                "number": "164"
+            },
+            {
+                "section": "C",
+                "number": "396"
+            },
+            {
+                "section": "B",
+                "number": "745"
+            },
+            {
+                "section": "C",
+                "number": "331"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "69",
+        "company": "Angora L. K. Chewing Gum Co. Ltd.",
+        "location": "Halifax",
+        "connections": [
+            {
+                "section": "B",
+                "number": "534"
+            },
+            {
+                "section": "C",
+                "number": "300"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "70",
+        "company": "Angora (Birstall) Ltd.",
+        "location": "Birstall, nr Leeds",
+        "connections": [
+            {
+                "section": "B",
+                "number": "426"
+            },
+            {
+                "section": "C",
+                "number": "1090"
+            },
+            {
+                "section": "C",
+                "number": "1093"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "71",
+        "company": "Angostura Bitters (London) Ltd.",
+        "location": "London EC 2",
+        "connections": [
+            {
+                "section": "B",
+                "number": "309"
+            },
+            {
+                "section": "C",
+                "number": "44"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "70",
+        "company": "Angus (George) Ltd.",
+        "location": "Newcastle",
+        "connections": [
+            {
+                "section": "B",
+                "number": "26"
+            },
+            {
+                "section": "C",
+                "number": "472"
+            },
+            {
+                "section": "B",
+                "number": "345"
+            },
+            {
+                "section": "C",
+                "number": "790"
+            },
+            {
+                "section": "B",
+                "number": "578"
+            },
+            {
+                "section": "C",
+                "number": "352"
+            },
+            {
+                "section": "B",
+                "number": "426"
+            },
+            {
+                "section": "C",
+                "number": "473"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "71",
+        "company": "Annohl (H.)",
+        "location": "London EC 3",
+        "connections": [
+            {
+                "section": "B",
+                "number": "267"
+            },
+            {
+                "section": "C",
+                "number": "7"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "72",
+        "company": "Anti-Attrition Metal Co. Ltd.",
+        "location": "Maidenhead, Berks.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "582"
+            },
+            {
+                "section": "C",
+                "number": "144"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "73",
+        "company": "A. P. Components Ltd.",
+        "location": "Shipston-on-Stour",
+        "connections": [
+            {
+                "section": "B",
+                "number": "473"
+            },
+            {
+                "section": "C",
+                "number": "760"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "74",
+        "company": "A. P. V. Co. Ltd.",
+        "location": "London SW 18",
+        "connections": [
+            {
+                "section": "B",
+                "number": "550"
+            },
+            {
+                "section": "C",
+                "number": "256"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "75",
+        "company": "Aquascutum Ltd.",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "C",
+                "number": "1157"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "76",
+        "company": "Ar-Kay Products Ltd.",
+        "location": "London NW 10",
+        "connections": [
+            {
+                "section": "B",
+                "number": "389"
+            },
+            {
+                "section": "C",
+                "number": "625"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "77",
+        "company": "Arbon, Langrish & Co. Ltd.",
+        "location": "London EC 3",
+        "connections": [
+            {
+                "section": "B",
+                "number": "371"
+            },
+            {
+                "section": "C",
+                "number": "1463"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "78",
+        "company": "Ardath Tobacco Co. Ltd.",
+        "location": "London EC 2",
+        "connections": [
+            {
+                "section": "B",
+                "number": "196"
+            },
+            {
+                "section": "C",
+                "number": "1446"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "79",
+        "company": "Archdale (James) & Co. Ltd.",
+        "location": "Birmingham",
+        "connections": [
+            {
+                "section": "B",
+                "number": "205"
+            },
+            {
+                "section": "C",
+                "number": "219"
+            },
+            {
+                "section": "B",
+                "number": "646"
+            },
+            {
+                "section": "C",
+                "number": "193"
+            },
+            {
+                "section": "C",
+                "number": "194"
+            },
+            {
+                "section": "C",
+                "number": "195"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "80",
+        "company": "Ariel Motors Ltd.",
+        "location": "Selly Oak, Birmingham",
+        "connections": [
+            {
+                "section": "B",
+                "number": "741"
+            },
+            {
+                "section": "C",
+                "number": "627"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "81",
+        "company": "Arlington Plastics (Export) Ltd.",
+        "location": "London N 16",
+        "connections": [
+            {
+                "section": "B",
+                "number": "238"
+            },
+            {
+                "section": "C",
+                "number": "813"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "82",
+        "company": "Armoire (Sales) Ltd.",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "476"
+            },
+            {
+                "section": "C",
+                "number": "818"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "83",
+        "company": "Armstrong-Powers Trading Co. Ltd.",
+        "location": "London W 1",
+        "connections": [
+            {
+                "section": "B",
+                "number": "780"
+            },
+            {
+                "section": "C",
+                "number": "1464"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "84",
+        "company": "Armstrong-Siddeley Motors Ltd.",
+        "location": "Coventry",
+        "connections": [
+            {
+                "section": "B",
+                "number": "35"
+            },
+            {
+                "section": "C",
+                "number": "640"
+            },
+            {
+                "section": "B",
+                "number": "147"
+            },
+            {
+                "section": "C",
+                "number": "562"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "85",
+        "company": "Armstrong-Whitworth (Sir W. G.) Aircraft Ltd.",
+        "location": "Baginton, nr Coventry",
+        "connections": [
+            {
+                "section": "B",
+                "number": "35"
+            },
+            {
+                "section": "C",
+                "number": "639"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "86",
+        "company": "Armstrong's Patents Co. Ltd.",
+        "location": "Beverley, Yorks.",
+        "connections": [
+            {
+                "section": "B",
+                "number": "226"
+            },
+            {
+                "section": "C",
+                "number": "600"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "87",
+        "company": "Arnold (Andrew) Ltd.",
+        "location": "London E 10",
+        "connections": [
+            {
+                "section": "B",
+                "number": "841"
+            },
+            {
+                "section": "C",
+                "number": "1147"
+            }
+        ]
+    },
+    {
+        "origin": {
+            "section": "A",
+            "page": "13",
+            "page_id": "3693661"
+        },
+        "number": "88",
+        "company": "Arnott (James) & Sons Ltd.",
+        "location": "Newcastle-on-Tyne",
+        "connections": [
+            {
+                "section": "B",
+                "number": "473"
+            },
+            {
+                "section": "C",
+                "number": "64"
+            }
+        ]
+    }
+]
