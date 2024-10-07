@@ -1,0 +1,47 @@
+import base64
+from io import BytesIO
+from PIL import Image
+
+img_path = "../image_data/3693659.jpg"
+with Image.open(img_path) as img:
+    # Preserve the aspect ratio while resizing the image to fit within 1024x1492
+    img.thumbnail((1024, 1492))
+
+    # Save the resized image to a BytesIO object
+    buffered = BytesIO()
+    img.save(buffered, format="JPEG")
+
+    # Convert the resized image to base64
+    base64_image = base64.b64encode(buffered.getvalue()).decode("utf-8")
+
+
+temperature = 0.5
+
+section = "A"
+page_id = "3693659"
+
+prompt = ('I present you an image and want you to extract every item in the list on the image.'
+          'Each list item belongs to a section and the line has the following structure: '
+          '[number]. [company], [location], [connections]. '
+          'The last part is a comma separated list to other sections. They are formatted like this '
+          '[section] [number], {section] [number]. '
+          'Please return a json list of the complete page in the described structure.'
+          f'The section of this image is "{section}", the page id is "{page_id}". You need to find the page number on the '
+          'base of the image.'
+          'An example of a valid resulting list item is:'
+          '{'
+          '  "origin": {'
+          '    "section": "A",'
+          '    "page": "11",'
+          '    "page_id": "3693659"'
+          '  },'
+          '  "number": "1", '
+          '  "company": "Abbott, Anderson & Abbott Ltd.", '
+          '  "location": "Harpenden, Herts.", '
+          '  "connections": ['
+          '     {"section": "B", "number": "123"},'
+          '     {"section": "C", "number": "13"}'
+          '  ]'
+          '}')
+
+gpt_role_description = "You are a precise list-reading machine and your answers are plain JSON."
