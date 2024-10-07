@@ -2,7 +2,7 @@
 This repository contains the code for the Crash Course: Practical Basics of AI over API.
 More information about our courses can be found on the [RISE website](https://www.rise.unibas.ch/).
 
-## Get started
+## 1.) Get started
 
 ### Install Python
 Check if you have Python installed on your computer by running the following command in your terminal or 
@@ -11,11 +11,10 @@ command prompt:
 python --version
 ```
 If you see a version number, you have Python installed. If you see an error message, you need to install Python.
-To run the code in this repository, you need to have Python installed on your computer. 
 You can download Python from the official website: https://www.python.org/downloads/
 Make sure the version is 3.10 or higher.
 
-### Clone the repository
+### Option 1: Clone the repository
 To download the repository, follow these steps:
 
 1. Open your terminal or command prompt.
@@ -34,7 +33,7 @@ To download the repository, follow these steps:
     ```
 You now have a local copy of the repository.
 
-### Download the repository as a ZIP file
+### Option 2: Download the repository as a ZIP file
 If you don't have `git` installed, you can download the repository as a ZIP file:
 
 1. Click on the green "Code" button in the top right corner of the repository.
@@ -42,7 +41,7 @@ If you don't have `git` installed, you can download the repository as a ZIP file
 3. Save the ZIP file to your computer.
 4. Extract the ZIP file to a directory of your choice.
 
-## Get API keys
+## 2.) Get API keys
 To use the APIs in this repository, you need to get API keys from the following services:
 
 1. OpenAI: https://platform.openai.com/
@@ -52,7 +51,7 @@ To use the APIs in this repository, you need to get API keys from the following 
 It is easiest to just do a web search for the respective service and "API key" to find tutorials on 
 how to get the API keys.
 
-## Install the required packages
+## 3.) Install the required packages
 To install the required packages, follow these steps:
 
 1. Open your terminal or command prompt.
@@ -63,7 +62,7 @@ To install the required packages, follow these steps:
     ```
 This will install all the required packages.
 
-## Run the code
+## 4.) Run the code
 To run the code, follow these steps:
 
 1. Open your terminal or command prompt.
