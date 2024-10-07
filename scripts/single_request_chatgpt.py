@@ -4,7 +4,7 @@
 from openai import OpenAI
 
 # Import the variables from the variables.py file. All the examples use the same variables.
-from variables import prompt, gpt_role_description, temperature, base64_image
+from .variables import prompt, gpt_role_description, temperature, base64_image
 
 # Set the API key and model for OpenAI. Replace "your_api_key" with your OpenAI API key.
 api_key = "your-api-key"

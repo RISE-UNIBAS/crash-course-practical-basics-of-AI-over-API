@@ -6,6 +6,7 @@ import numpy as np
 
 # Function to convert seconds to hours, minutes, and seconds
 def format_seconds(seconds):
+    """Converts seconds to hours, minutes, and seconds."""
     hours = seconds // 3600
     minutes = (seconds % 3600) // 60
     sec = seconds % 60

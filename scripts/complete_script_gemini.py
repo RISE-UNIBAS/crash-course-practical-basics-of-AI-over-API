@@ -4,13 +4,10 @@ containing the extracted information in JSON format. The script saves the extrac
 the same name as the image file. The script processes multiple images in a batch."""
 
 # Import the required libraries
-import base64
 import json
 import os
 import re
 import time
-from io import BytesIO
-from PIL import Image
 
 # Import the Google Gemini client
 import google.generativeai as genai
@@ -84,7 +81,8 @@ for root, _, filenames in os.walk(image_directory):
 
             # Extract the answer from the response
             answer_text = answer.text
-            print("> Received an answer from the API. Token cost (in/out):", answer.usage_metadata.prompt_token_count, "/",
+            print("> Received an answer from the API. Token cost (in/out):",
+                  answer.usage_metadata.prompt_token_count, "/",
                   answer.usage_metadata.candidates_token_count)
             total_in_tokens += answer.usage_metadata.prompt_token_count
             total_out_tokens += answer.usage_metadata.candidates_token_count
@@ -111,13 +109,10 @@ for root, _, filenames in os.walk(image_directory):
                     os.makedirs(output_directory, exist_ok=True)
 
                     # Save the answer to a JSON file
-                    with open(f"{output_directory}/{image_id}.json", "w") as json_file:
-                        try:
-                            json.dump(answer_data, json_file, indent=4)
-                            print(f"> Saved the answer for {image_id} to {output_directory}/{image_id}.json")
-                        except Exception as e:
-                            print(f"> Failed to save the answer for {image_id} to {output_directory}/{image_id}.json")
-                            print(e)
+                    with open(f"{output_directory}/{image_id}.json", "w", encoding="utf-8") as json_file:
+                        json.dump(answer_data, json_file, indent=4)
+                        print(f"> Saved the answer for {image_id} to {output_directory}/{image_id}.json")
+
             else:
                 print("> No match found for the JSON content.")
 
@@ -128,10 +123,10 @@ for root, _, filenames in os.walk(image_directory):
 # Calculate and print the total processing time
 end_time = time.time()
 total_time = end_time - start_time
-print(f"----------------------------------------")
+print("----------------------------------------")
 print(f"Total processing time: {total_time:.2f} seconds")
 print(f"Total token cost (in/out): {total_in_tokens} / {total_out_tokens}")
 print(f"Average token cost per image: {total_out_tokens / total_files}")
 print(f"Total cost (in/out): ${total_in_tokens / 1e6 * input_cost_per_mio_in_dollars:.2f} / "
       f"${total_out_tokens / 1e6 * output_cost_per_mio_in_dollars:.2f}")
-print(f"----------------------------------------")
+print("----------------------------------------")

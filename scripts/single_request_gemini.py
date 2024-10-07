@@ -4,7 +4,7 @@
 import google.generativeai as genai
 
 # Import the variables from the variables.py file. All the examples use the same variables.
-from variables import prompt, img_path
+from .variables import prompt, img_path
 
 # Set the API key and model for GenerativeAI. Replace "your_api_key" with your GenerativeAI API key.
 api_key = "your-api-key"

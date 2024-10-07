@@ -1,10 +1,15 @@
+"""Test script to measure the difference between two JSON files.
+The script loads two JSON files and compares the objects in them to find the differences.
+This is a try to use the output of two different models to compare the results to get
+an idea of the accuracy of the answers."""
 import json
 from deepdiff import DeepDiff
 
 
 # Load the two JSON files
 def load_json(file_path):
-    with open(file_path, 'r') as file:
+    """Load a JSON file from the given path."""
+    with open(file_path, 'r', encoding="utf-8") as file:
         return json.load(file)
 
 
@@ -22,5 +27,3 @@ for i, (obj1, obj2) in enumerate(zip(json_list_1[:10], json_list_2[:10])):
             old_val = diff['values_changed'][value]['old_value']
             new_val = diff['values_changed'][value]['new_value']
             print(f"Value Change for {value}: {old_val} -> {new_val}")
-
-

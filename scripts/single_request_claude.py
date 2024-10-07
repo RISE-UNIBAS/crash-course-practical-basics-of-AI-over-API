@@ -4,7 +4,7 @@
 from anthropic import Anthropic
 
 # Import the variables from the variables.py file. All the examples use the same variables.
-from variables import prompt, base64_image
+from .variables import prompt, base64_image
 
 # Set the API key and model for Anthropic. Replace "your_api_key" with your Anthropic API key.
 api_key = "your-api-key"
